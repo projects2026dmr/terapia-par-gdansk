@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://terapia-par-gdansk.netlify.app/sitemap.xml
