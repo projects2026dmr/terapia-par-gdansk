@@ -184,7 +184,7 @@ export default function App() {
           </nav>
 
           <div className="hidden items-center gap-3 lg:flex">
-            <a href="tel:+48512345678" className="text-sm font-semibold text-slate-700 hover:text-teal-800">+48 512 345 678</a>
+            <a href="tel:+48512345678" className="text-sm font-semibold text-slate-700 hover:text-teal-800">+48 123 456 789</a>
             <Button href="#kontakt">Umów spotkanie</Button>
           </div>
 
@@ -203,7 +203,7 @@ export default function App() {
               ))}
             </nav>
             <div className="mt-4 flex flex-col gap-3 border-t border-slate-100 pt-4">
-              <a href="tel:+48512345678" className="text-base font-semibold text-slate-700">+48 512 345 678</a>
+              <a href="tel:+48512345678" className="text-base font-semibold text-slate-700">+48 123 456 789</a>
               <Button href="#kontakt" onClick={() => setMobileOpen(false)}>Umów spotkanie</Button>
             </div>
           </div>
@@ -671,12 +671,12 @@ export default function App() {
                 { q: "Czy terapia jest dostępna w weekendy?", a: "Tak, spotkania w soboty 10:00-14:00. Terminy weekendowe popularne – zalecam rezerwację z 2-3 tygodniowym wyprzedzeniem." },
                 { q: "Czy terapeuta może przepisać leki?", a: "Psychoterapeuta nie przepisuje leków. W razie potrzeby farmakoterapii kieruję do współpracujących psychiatrów. Współpraca terapeuty i psychiatry zapewnia kompleksową opiekę." },
                 { q: "Czy terapia par może odbywać się z terapią indywidualną?", a: "Tak, często zalecam wsparcie indywidualne obok terapii par, gdy jeden partner zmaga się z osobistymi trudnościami (trauma, depresja). Ważna koordynacja obu terapii." },
-                { q: "Jak zapisać się na terapię par w Gdańsku?", a: "Formularz na stronie, telefon +48 512 345 678, email kontakt@terapiapargdansk.pl. Odpowiadam w ciągu 24h." },
+                { q: "Jak zapisać się na terapię par w Gdańsku?", a: "Formularz na stronie, telefon +48 123 456 789, email info@terapia-par-gdansk.netlify.app. Odpowiadam w ciągu 24h." },
                 { q: "Czy oferujesz warsztaty dla par?", a: "Obecnie koncentruję się na pracy indywidualnej z parami w formie terapii." },
                 { q: "Czy terapia online wymaga specjalnego oprogramowania?", a: "Nie, używam Zoom lub Google Meet. Wystarczy komputer/smartfon z kamerą i mikrofonem. Przed pierwszą sesją wysyłam instrukcję i link." },
                 { q: "Czy będziemy mieć prace domowe?", a: "Tak, często zalecam proste ćwiczenia lub obserwacje między sesjami. Pomagają utrwalić nowe wzorce w codziennym życiu. Nie są oceniane – służą rozwojowi." },
                 { q: "Co sprawia, że terapia jest skuteczna?", a: "Zaangażowanie obojga partnerów, otwartość na zmianę, regularność spotkań, dobry kontakt z terapeutą (alians terapeutyczny) oraz praktykowanie nowych umiejętności między sesjami." },
-                { q: "Czy mogę napisać maila z pytaniem?", a: "Oczywiście, kontakt@terapiapargdansk.pl. Odpowiadam na pytania o terapię, terminy, metody. Czas odpowiedzi: 24h w dni robocze." },
+                { q: "Czy mogę napisać maila z pytaniem?", a: "Oczywiście, info@terapia-par-gdansk.netlify.app. Odpowiadam na pytania o terapię, terminy, metody. Czas odpowiedzi: 24h w dni robocze." },
                 { q: "Czy terapia jest odpowiednia po wielu latach małżeństwa?", a: "Tak, terapia pomaga na każdym etapie – również po wielu latach. Wieloletnie pożycie często prowadzi do rutyny i utraty bliskości, które można odnowić." },
                 { q: "Jakie są najczęstsze błędy w komunikacji?", a: "Krytykowanie zamiast mówienia o potrzebach, brak aktywnego słuchania, pogardliwy ton, defensywność, wycofywanie się z rozmów (stonewalling), porównywanie do innych." },
                 { q: "Czy terapia może pomóc przy problemach z rodziną?", a: "Tak, trudności z teściami, rodziną pochodzenia, wychowaniem dzieci wpływają na relację. Pracujemy nad wspólnym stanowiskiem, granicami, decyzjami wychowawczymi." },
@@ -722,15 +722,15 @@ export default function App() {
                       <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-teal-700 text-xl">📞</span>
                       <div>
                         <p className="text-sm text-slate-400">Telefon</p>
-                        <p className="text-lg font-semibold">+48 512 345 678</p>
+                        <p className="text-lg font-semibold">+48 123 456 789</p>
                         <p className="text-xs text-slate-500">Dostępny pon-pt 9:00-20:00</p>
                       </div>
                     </a>
-                    <a href="mailto:kontakt@terapiapargdansk.pl" className="flex items-center gap-4 rounded-xl bg-white/5 p-4 transition-colors hover:bg-white/10">
+                    <a href="mailto:info@terapia-par-gdansk.netlify.app" className="flex items-center gap-4 rounded-xl bg-white/5 p-4 transition-colors hover:bg-white/10">
                       <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-teal-700 text-xl">✉️</span>
                       <div>
                         <p className="text-sm text-slate-400">Email</p>
-                        <p className="text-lg font-semibold">kontakt@terapiapargdansk.pl</p>
+                        <p className="text-lg font-semibold">info@terapia-par-gdansk.netlify.app</p>
                         <p className="text-xs text-slate-500">Odpowiedź w 24h</p>
                       </div>
                     </a>
@@ -869,8 +869,8 @@ export default function App() {
               <ul className="mt-4 space-y-2 text-sm text-slate-600">
                 <li>ul. Abrahama 20/3</li>
                 <li>80-171 Gdańsk (Wrzeszcz)</li>
-                <li><a href="tel:+48512345678" className="hover:text-teal-700 font-semibold">+48 512 345 678</a></li>
-                <li><a href="mailto:kontakt@terapiapargdansk.pl" className="hover:text-teal-700">kontakt@terapiapargdansk.pl</a></li>
+                <li><a href="tel:+48512345678" className="hover:text-teal-700 font-semibold">+48 123 456 789</a></li>
+                <li><a href="mailto:info@terapia-par-gdansk.netlify.app" className="hover:text-teal-700">info@terapia-par-gdansk.netlify.app</a></li>
                 <li className="pt-2 text-xs text-slate-400">Pon-pt: 9:00-20:00<br/>Sob: 10:00-14:00</li>
               </ul>
             </div>
